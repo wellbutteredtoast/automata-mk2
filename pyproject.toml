@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "automata-mk2"
+authors = [
+    { name = "Sam Watson", email = "swatsonjones@mun.ca" }
+]
+version = "0.1.0"
+description = "A modern re-implementation of the Automata bot for MUNCSS."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "discord-py>=2.6.4",
+    "ruff>=0.14.14",
+]
+
+[project.scripts]
+automata = "automata.__main__:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/automata"]
