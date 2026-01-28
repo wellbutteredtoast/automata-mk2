@@ -18,4 +18,4 @@ See the [LICENSE](./LICENSE) file for the full details.
 
 ## Contributing
 
-Contributions are welcome! Just be aware that **this is unstable** and is expected to break often before a full release.
+Contributions are welcome! Just be aware that **this is unstable** and is expected to break often before a full release. Contributions should be tested against Python 3.14 at the minimum.

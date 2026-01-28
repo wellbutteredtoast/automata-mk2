@@ -1,6 +1,11 @@
-__pycache__/
 *.pyc
+*.pyx
+*.pyw
+
 .venv/
 venv/
 env/
+
+.venv/
 .env/
+.ruff_cache/
